@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "esbuild index.js --bundle  --outfile=bundle.js --watch"
+    "build": "esbuild index.js --bundle  --outfile=bundle.js --watch",
+    "start": "nodemon ./app.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,10 @@
   "homepage": "https://github.com/makersacademy/instagram-challenge#readme",
   "dependencies": {
     "express": "^4.17.3",
-    "mongoose": "^6.2.7"
+    "mongoose": "^6.2.7",
+    "nodemon": "^2.0.15"
+  },
+  "nodemonConfig": {
+    "ext": "js,hbs"
   }
 }
