@@ -1,7 +1,9 @@
 /**
  * @jest-environment jsdom
  */
+//  const mongoose = require("mongoose");
 
+//  require("../mongodb_helper");
  const test = require('./test.js')
 
  describe('test', () => {
