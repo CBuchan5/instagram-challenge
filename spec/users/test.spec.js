@@ -4,7 +4,7 @@
 //  const mongoose = require("mongoose");
 
 //  require("../mongodb_helper");
- const test = require('./test.js')
+ const test = require('../../models/users/test.js')
 
  describe('test', () => {
  it('returns something', () => {
