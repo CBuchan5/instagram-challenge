@@ -1,3 +1,16 @@
+# My Instagram Challenge
+
+My take on the instagram challene.
+
+## Setting up
+
+To run the server copy the following:
+
+```
+npm install
+npm start
+```
+
 Instagram Challenge
 ===================
 
